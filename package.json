@@ -1,5 +1,5 @@
 {
-  "name": "mini-html-parser2",
+  "name": "@jiahuix/mini-html-parser2",
   "version": "0.1.4",
   "description": "小程序富文本",
   "repository": {
@@ -7,15 +7,13 @@
     "url": "git@github.com:ant-mini-program/mini-html-parser.git"
   },
   "files": [
-    "lib",
-    "es"
+    "dist"
   ],
-  "main": "lib/index.js",
-  "module": "es/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "build": "rc-tools run compile",
-    "pub": "git push origin && npm run build && npm publish"
+    "build": "./node_modules/.bin/webpack",
+    "pub": "git push origin && npm run build && npm publish --access public"
   },
   "keywords": [
     "rich-text",
@@ -26,7 +24,11 @@
   "devDependencies": {
     "@types/node": "^11.9.6",
     "jest": "^23.6.0",
-    "rc-tools": "^8.1.5"
+    "ts-loader": "^6.1.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
   },
   "dependencies": {
     "domhandler": "^2.4.2",

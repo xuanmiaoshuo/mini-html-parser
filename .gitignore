@@ -14,5 +14,5 @@ Thumbs.db
 .prettierrc
 lib
 es
-yarn.lock
 node_modules
+dist
