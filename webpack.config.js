@@ -12,7 +12,7 @@ module.exports = {
     output: {
         filename: '[name].js',// 生成的fiename需要与package.json中的main一致
         path: path.resolve(__dirname, 'dist'),
-        libraryTarget: 'commonjs',
+        libraryTarget: 'umd',
     },
     module: {
         rules: [
@@ -27,7 +27,6 @@ module.exports = {
                         },
                     },
                 ],
-                exclude: /node_modules/,
             },
         ],
     },
