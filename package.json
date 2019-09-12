@@ -1,10 +1,10 @@
 {
   "name": "@jiahuix/mini-html-parser2",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "小程序富文本",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ant-mini-program/mini-html-parser.git"
+    "url": "git@github.com:jiahui92/mini-html-parser.git"
   },
   "files": [
     "dist"
@@ -20,12 +20,11 @@
     "mini-program",
     "html-parser"
   ],
-  "author": "issac.lj@alibaba-inc.com",
+  "author": "547652008@qq.com",
   "devDependencies": {
     "@types/node": "^11.9.6",
     "jest": "^23.6.0",
     "ts-loader": "^6.1.0",
-    "tslint": "^5.20.0",
     "typescript": "^3.6.3",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.8"

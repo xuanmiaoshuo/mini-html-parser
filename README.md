@@ -1,6 +1,6 @@
 # mini-html-parser2
 
-fork from [ant-mini-program/mini-html-parser](https://github.com/ant-mini-program/mini-html-parser)，为了兼容Taro，将所有依赖包都打进一个文件，避免Taro.build时找不到require的文件
+forked from [ant-mini-program/mini-html-parser](https://github.com/ant-mini-program/mini-html-parser)，为了兼容Taro，将所有依赖包都打进一个文件，避免Taro.build时找不到require的文件
 
 ## 安装
 
