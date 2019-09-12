@@ -57,9 +57,13 @@ Page({
 <rich-text nodes="{{nodes}}" />
 ```
 
-## 运行测试
+## 打包
 
 ```
-$ npm run build
-$ npm test
+npm run build
+```
+
+## 发布
+```
+npm run pub
 ```
