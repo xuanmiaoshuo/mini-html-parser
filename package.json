@@ -1,10 +1,10 @@
 {
-  "name": "@jiahuix/mini-html-parser2",
-  "version": "0.1.6",
+  "name": "@mc/mini-html-parser",
+  "version": "0.0.1",
   "description": "小程序富文本",
   "repository": {
     "type": "git",
-    "url": "git@github.com:jiahui92/mini-html-parser.git"
+    "url": "git@github.com:xuanmiaoshuo/mini-html-parser.git"
   },
   "files": [
     "dist"
@@ -13,7 +13,7 @@
   "scripts": {
     "test": "jest",
     "build": "./node_modules/.bin/webpack",
-    "pub": "git push origin && npm run build && npm publish --access public"
+    "pub": "git push origin && npm run build && mnpm publish --access public"
   },
   "keywords": [
     "rich-text",

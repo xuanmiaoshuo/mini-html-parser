@@ -5,7 +5,7 @@ forked from [ant-mini-program/mini-html-parser](https://github.com/ant-mini-prog
 ## 安装
 
 ```
-$ npm install @jiahuix/mini-html-parser2 --save
+$ npm install @mc/mini-html-parser --save
 ```
 
 ## 使用
